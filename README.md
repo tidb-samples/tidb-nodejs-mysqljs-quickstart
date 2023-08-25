@@ -3,13 +3,13 @@
 [![Language](https://img.shields.io/badge/Language-JavaScript-f1e05a.svg)](https://nodejs.org/en)
 [![Driver](https://img.shields.io/badge/Driver-mysqljs/mysql-blue.svg)](https://github.com/mysqljs/mysql)
 
+TiDB is a MySQL-compatible database, and mysqljs/mysql is a pure node.js JavaScript Client implementing the MySQL protocol for the database connection and SQL operations.
+
 The following guide will show you how to connect to the TiDB cluster with Node.js [mysqljs/mysql](https://github.com/mysqljs/mysql) driver and perform basic SQL operations like create, read, update, and delete.
 
-> **Notice:**
+> **Note**
 >
-> TiDB is a MySQL-compatible database, which means you can connect to a TiDB cluster in your application using the familiar driver/ORM framework from the MySQL ecosystem.
->
-> The only difference is that if you connect to a TiDB Serverless cluster with public endpoint, you **MUST** [enable TLS connection on the node-mysql driver](#connect-to-tidb-cluster).
+> TO connect to a TiDB Serverless cluster with public endpoint, you **MUST** [enable TLS connection on the node-mysql driver](#connect-with-connection-options).
 
 ## Prerequisites
 
